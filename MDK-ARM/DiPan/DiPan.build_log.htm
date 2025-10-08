@@ -1,0 +1,186 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a wqy09426@gmail.com, a, LIC=VGXG8-3SUKU-KPCZY-I5AD8-TP51C-RTZJI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil 5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\Tongji second year\PACE\Usart_AC_Communication\MDK-ARM\DiPan.uvprojx
+Project File Date:  09/30/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil 5\ARM\ARMCC\Bin'
+Build target 'DiPan'
+assembling startup_stm32f427xx.s...
+compiling alg_pid.cpp...
+..\User\alg_pid.cpp(37): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Init(float __K_P, float __K_I, float __K_D, float __K_F, float __I_Out_Max, float __Out_Max, float __D_T, float __Dead_Zone, float __I_Variable_Speed_A, float __I_Variable_Speed_B, float __I_Separate_Threshold, Enum_PID_D_First __D_First)
+..\User\alg_pid.cpp(39): error:  #20: identifier "K_P" is undefined
+      K_P = __K_P;
+..\User\alg_pid.cpp(40): error:  #20: identifier "K_I" is undefined
+      K_I = __K_I;
+..\User\alg_pid.cpp(41): error:  #20: identifier "K_D" is undefined
+      K_D = __K_D;
+..\User\alg_pid.cpp(42): error:  #20: identifier "K_F" is undefined
+      K_F = __K_F;
+..\User\alg_pid.cpp(43): error:  #20: identifier "I_Out_Max" is undefined
+      I_Out_Max = __I_Out_Max;
+..\User\alg_pid.cpp(44): error:  #20: identifier "Out_Max" is undefined
+      Out_Max = __Out_Max;
+..\User\alg_pid.cpp(45): error:  #20: identifier "D_T" is undefined
+      D_T = __D_T;
+..\User\alg_pid.cpp(46): error:  #20: identifier "Dead_Zone" is undefined
+      Dead_Zone = __Dead_Zone;
+..\User\alg_pid.cpp(47): error:  #20: identifier "I_Variable_Speed_A" is undefined
+      I_Variable_Speed_A = __I_Variable_Speed_A;
+..\User\alg_pid.cpp(48): error:  #20: identifier "I_Variable_Speed_B" is undefined
+      I_Variable_Speed_B = __I_Variable_Speed_B;
+..\User\alg_pid.cpp(49): error:  #20: identifier "I_Separate_Threshold" is undefined
+      I_Separate_Threshold = __I_Separate_Threshold;
+..\User\alg_pid.cpp(50): error:  #20: identifier "D_First" is undefined
+      D_First = __D_First;
+..\User\alg_pid.cpp(58): error:  #276: name followed by "::" must be a class or namespace name
+  float Class_PID::Get_Integral_Error()
+..\User\alg_pid.cpp(60): error:  #20: identifier "Integral_Error" is undefined
+      return (Integral_Error);
+..\User\alg_pid.cpp(68): error:  #276: name followed by "::" must be a class or namespace name
+  float Class_PID::Get_Out()
+..\User\alg_pid.cpp(70): error:  #20: identifier "Out" is undefined
+      return (Out);
+..\User\alg_pid.cpp(78): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_K_P(float __K_P)
+..\User\alg_pid.cpp(80): error:  #20: identifier "K_P" is undefined
+      K_P = __K_P;
+..\User\alg_pid.cpp(88): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_K_I(float __K_I)
+..\User\alg_pid.cpp(90): error:  #20: identifier "K_I" is undefined
+      K_I = __K_I;
+..\User\alg_pid.cpp(98): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_K_D(float __K_D)
+..\User\alg_pid.cpp(100): error:  #20: identifier "K_D" is undefined
+      K_D = __K_D;
+..\User\alg_pid.cpp(108): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_K_F(float __K_F)
+..\User\alg_pid.cpp(110): error:  #20: identifier "K_F" is undefined
+      K_F = __K_F;
+..\User\alg_pid.cpp(120): error:  #20: identifier "I_Out_Max" is undefined
+      I_Out_Max = __I_Out_Max;
+..\User\alg_pid.cpp(128): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_Out_Max(float __Out_Max)
+..\User\alg_pid.cpp(130): error:  #20: identifier "Out_Max" is undefined
+      Out_Max = __Out_Max;
+..\User\alg_pid.cpp(138): error:  #276: name followed by "::" must be a class or namespace name
+  void Class_PID::Set_I_Variable_Speed_A(float __I_Variable_Speed_A)
+..\User\alg_pid.cpp: 0 warnings, 30 errors
+compiling main.c...
+../User/dvc_motor.h(87): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+../User/dvc_motor.h(89): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+../User/dvc_motor.h(91): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Torque;
+../User/dvc_motor.h(203): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+../User/dvc_motor.h(205): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+../User/dvc_motor.h(317): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+../User/dvc_motor.h(319): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+../Core/Src/main.c: 0 warnings, 7 errors
+compiling dvc_motor.cpp...
+..\User\dvc_motor.h(87): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(89): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(91): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Torque;
+..\User\dvc_motor.h(203): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(205): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(317): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(319): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.cpp: 0 warnings, 7 errors
+compiling drv_act.c...
+..\User\dvc_motor.h(87): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(89): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(91): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Torque;
+..\User\dvc_motor.h(203): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(205): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(317): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(319): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\drv_act.c: 0 warnings, 7 errors
+compiling drv_motion.c...
+..\User\dvc_motor.h(87): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(89): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(91): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Torque;
+..\User\dvc_motor.h(203): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(205): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\dvc_motor.h(317): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Angle;
+..\User\dvc_motor.h(319): error:  #20: identifier "Class_PID" is undefined
+      Class_PID PID_Omega;
+..\User\drv_motion.c: 0 warnings, 7 errors
+compiling drv_can.c...
+compiling drv_communication.c...
+compiling drv_uart.c...
+compiling drv_bsp.c...
+"DiPan\DiPan.axf" - 57 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_DiPan
+  D:\Keil 5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\Keil 5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:47
+</pre>
+</body>
+</html>

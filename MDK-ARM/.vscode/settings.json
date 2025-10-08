@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "\"*.c\"": "\"cpp\"",
+        "\"*.h\"": "\"cpp\"",
+        "drv_motion.h": "c",
+        "drv_communication.h": "c",
+        "drv_uart.h": "c",
+        "drv_can.h": "c"
+    }
+}

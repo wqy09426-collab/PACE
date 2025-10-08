@@ -1,0 +1,35 @@
+dipan\usart.o: ../Core/Src/usart.c
+dipan\usart.o: ../Core/Inc/usart.h
+dipan\usart.o: ../Core/Inc/main.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+dipan\usart.o: ../Core/Inc/stm32f4xx_hal_conf.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+dipan\usart.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+dipan\usart.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f427xx.h
+dipan\usart.o: ../Drivers/CMSIS/Include/core_cm4.h
+dipan\usart.o: D:\Keil 5\ARM\ARMCC\Bin\..\include\stdint.h
+dipan\usart.o: ../Drivers/CMSIS/Include/cmsis_version.h
+dipan\usart.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+dipan\usart.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+dipan\usart.o: ../Drivers/CMSIS/Include/mpu_armv7.h
+dipan\usart.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+dipan\usart.o: D:\Keil 5\ARM\ARMCC\Bin\..\include\stddef.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+dipan\usart.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
